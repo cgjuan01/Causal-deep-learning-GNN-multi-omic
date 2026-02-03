@@ -2,7 +2,7 @@
 
 Supervised Graph Attention Network (GAT) training script for **exercise-only** gene prioritisation using an **Mendelian randomisation-derived node table** (MTI scores + precomputed features) and a **kNN gene–gene edge list**. The model predicts:
 
-1) **Continuous MTI score** (regression; MSE)  
+1) **Continuous Multi-omic Trait Importance (MTI) score** (regression; MSE)  
 2) **Multi-layer support label** (classification; `MTI_n_layers >= 2`, optional; BCE)
 
 After training, it produces both:
