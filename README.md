@@ -1,6 +1,6 @@
 # Supervised MR-GAT-GNN Trainer (Exercise-only | MTI + Multi-omic Hybrid | AFv6)
 
-Supervised Graph Attention Network (GAT) training script for **exercise-only** gene prioritisation using an **MR-derived node table** (MTI scores + precomputed features) and a **kNN gene–gene edge list**. The model predicts:
+Supervised Graph Attention Network (GAT) training script for **exercise-only** gene prioritisation using an **Mendelian randomisation-derived node table** (MTI scores + precomputed features) and a **kNN gene–gene edge list**. The model predicts:
 
 1) **Continuous MTI score** (regression; MSE)  
 2) **Multi-layer support label** (classification; `MTI_n_layers >= 2`, optional; BCE)
