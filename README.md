@@ -267,8 +267,7 @@ Script 3 for full ablation details and usage.
 - Full-graph training (~3,089 nodes per step) would require mini-batch
   neighbourhood sampling at 10–100× scale
 - kNN graph topology is fixed during training
-- Experimental validation cohort (n=13) limits statistical power for the
-  glycomic and gene expression validation
+
 
 ### Inputs
 
