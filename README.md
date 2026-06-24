@@ -1,4 +1,4 @@
-# Causally-anchored multi-omic deep learning for exercise–ageing gene prioritisation
+# Causally-anchored multi-omic deep learning for exercise-ageing gene prioritisation
 
 Code and key data accompanying *"Causally-anchored multi-omic deep learning
 recovers exercise-responsive and ageing-causal genes from human physical
