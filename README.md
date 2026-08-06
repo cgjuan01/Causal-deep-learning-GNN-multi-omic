@@ -4,7 +4,7 @@ Code and key data accompanying *"Causally-anchored multi-omic deep learning
 recovers exercise-responsive and ageing-causal genes from human physical
 activity."*
 
-The pipeline combines **LD-aware, overlap-aware, pleiotropy-filtered multi-omic
+The pipeline combines **linkage disequilibrium (LD)-aware, overlap-aware, pleiotropy-filtered multi-omic
 Mendelian randomisation (MR)** with a **supervised graph-attention network (GAT)**
 to prioritise genes linking vigorous physical activity (VPA) to biological ageing,
 then subjects the eight triple-convergent genes to **systematic cis-MR with
