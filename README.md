@@ -282,8 +282,7 @@ Median across the five seeds; 10,000 simulations; **sig** counts seeds at p < 0.
 | MoTrPAC | MLP | 150 | 53 | 0.352 | 0.339 [0.281–0.419] | 0/5 |
 | MoTrPAC | MLP | 200 | 70 | 0.358 | 0.315 [0.274–0.370] | 0/5 |
 
-**Every conclusion is unchanged, and the exercise-responsive result strengthens**
-— MoTrPAC at K = 100 moves from p = 0.018 to p = 0.012 and from four to five of
+**Every conclusion is unchanged, and the exercise-responsive result strengthens**: MoTrPAC at K = 100 moves from p = 0.018 to p = 0.012 and from four to five of
 five seeds significant. CausAge at K = 100 loses one seed (0.053).
 
 The reason the correction is small is that the ranking is not degree-biased:
