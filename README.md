@@ -327,7 +327,7 @@ p upward, so neither becomes significant under N = 2,473; they will be
 recomputed for internal consistency when the corrected table is published.
 
 > **On seed choice.** The published table reports seed 42, which is the **median
-> or the most conservative** of the five seeds in every cell — at K = 100 and
+> or the most conservative** of the five seeds in every cell at K = 100 and
 > K = 150 against CausAge it is the *least* significant seed in the set. The
 > published figures are therefore not a favourable selection. The median-and-range
 > tables above are given so this can be verified directly from the committed rank
@@ -343,8 +343,8 @@ recomputed for internal consistency when the corrected table is published.
 - **The MoTrPAC result weakens but stands.** The GAT median moves from p = 0.007
   to p = 0.018 and from 5/5 to 4/5 seeds at K = 100, and depth-robustness is lost
   (3/5 at K = 150, 2/5 at K = 200). The MLP remains non-significant at every depth
-  under both universes, so the qualitative claim — only the graph model recovers
-  the exercise-responsive set — is unchanged. Wording should become "recovered at
+  under both universes, so the qualitative claim that only the graph model recovers
+  the exercise-responsive set is unchanged. Wording should become "recovered at
   K = 100 in four of five initialisations" rather than "robustly".
 
 #### Ranking stability across seeds
@@ -390,7 +390,7 @@ is not a prediction task in the usual sense.
 The model's operative role is **propagation**: message passing prevents each node
 from reading off its own composite score, so the learned ranking is a
 neighbourhood-smoothed MTI. The framework is best understood as network propagation
-with learned edge weights, performing denoising rather than causal discovery — the
+with learned edge weights, performing denoising rather than causal discovery: the
 supervision target derives from the upstream MR, and the model cannot generate
 causal information the MR did not contain. Attention weights are treated as
 context-dependent indicators of relative importance, not evidence of mechanism.
