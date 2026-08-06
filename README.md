@@ -219,7 +219,7 @@ intersected with the multi-omic MR universe.
 > expectation `E[X] = n x 33 / 2,959`, the convergence figures below will change
 > and should be treated as provisional until the rebuild is complete.
 
-#### Rank-based enrichment — corrected universe (N = 2,473)
+#### Rank-based enrichment corrected universe (N = 2,473)
 
 Median across the five seeds {0, 1, 7, 42, 123}; range in brackets; **sig** counts
 seeds reaching p < 0.05.
@@ -310,7 +310,7 @@ Caveats: 10,000 simulations at one RNG seed, degree binned into deciles. The
 CausAge arm rests on 4 observed genes against ~1.3 expected and is underpowered
 under any null; the MoTrPAC arm carries the resolution.
 
-#### As published (N = 2,959) — for comparison
+#### As published (N = 2,959) for comparison
 
 | Method | CausAge K=100/150/200 | MoTrPAC K=100/150/200 |
 |---|---|---|
