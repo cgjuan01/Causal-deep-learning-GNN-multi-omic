@@ -299,7 +299,7 @@ ageing-causal reference is degree-poor, so the degree-matched expectation (1.36 
 K = 100) barely differs from the uniform one (1.21).
 
 **What this does and does not establish.** It rules out connectivity as an
-explanation for the enrichment — the most obvious confound in network-based gene
+explanation for the enrichment: the most obvious confound in network-based gene
 prioritisation. It does not establish that the *specific* biological wiring
 matters: degree-matched sampling holds connectivity fixed while randomising which
 genes are drawn, whereas degree-preserving rewiring holds connectivity fixed while
